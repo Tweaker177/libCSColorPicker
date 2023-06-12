@@ -1,8 +1,9 @@
-ARCHS = 	armv7 armv7s arm64 arm64e
-TARGET = 	iphone:clang:13.0:5.0
+export THEOS_PACKAGE_SCHEME=rootless
+export ARCHS = 	armv7 armv7s arm64 arm64e
+export TARGET = 	iphone:clang:latest:14.0
 
 DEBUG = 			1
-FINALPACKAGE = 		1
+export FINALPACKAGE = 		1
 LEAN_AND_MEAN = 	1
 GO_EASY_ON_ME = 	0
 
