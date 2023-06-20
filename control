@@ -1,7 +1,7 @@
 Package: com.creaturesurvive.libcscolorpicker
 Name: libCSColorPicker
-Pre-Depends: firmware (>= 7.0)
-Version: 1.0.6rootless
+Pre-Depends: firmware (>= 14.0)
+Version: 1.0.6
 Architecture: iphoneos-arm64
 Description: A minimal color picker library for developers
 Maintainer: CreatureSurvive <support@creaturecoding.com>
@@ -11,4 +11,3 @@ Homepage: https://creaturecoding.com/
 Depiction: https://creaturecoding.com/?page=depiction&id=libcscolorpicker
 SileoDepiction: https://creaturecoding.com/sileo/depiction/?package_id=libcscolorpicker
 Tag: purpose::extension, compatible_min::iosiOS14
-
